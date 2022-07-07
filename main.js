@@ -47,9 +47,38 @@ myoldname("Dawn Amin Ahmed")
 
 //  map
 
+const newlist= favouritefruits.map((nwitem)=>{
 
+    console.log("Hello: "+nwitem)
 
+})
 
 
 
 // filter
+
+const newfilter=favouritefruits.filter((myfilt=> (myfilt==="lichi")))
+console.log(newfilter)
+
+
+const notin =favouritefruits.filter(notinlist=> notinlist!=="lichi")
+console.log(notin)
+
+
+// .6 CLASS CONSTRACTOR
+
+
+
+
+
+
+
+
+
+
+
+
+
+// .7 PROMISS
+
+
